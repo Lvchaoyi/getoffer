@@ -5,7 +5,7 @@ package algorithm.search;
 * 解法1：线性查找（从右上角开始查找，由于数字从上到下，从左到右递增，所以不会错过元素）TODO
 * */
 
-class Solution {
+class FindNumberIn2DArray {
 
     public boolean findNumberIn2DArray(int[][] matrix, int target) {
         int i = matrix.length - 1, j = 0;
